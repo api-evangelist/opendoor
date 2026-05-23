@@ -1,0 +1,141 @@
+aid: opendoor
+name: Opendoor
+description: >-
+  Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash
+  offer on their home, sell directly to Opendoor, list with Opendoor through
+  its agent network, or browse off-market inventory via Opendoor Exclusives.
+  Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs
+  buying, renovation, listing, and resale at scale and partners with
+  third-party agents and brokerages through its Opendoor for Agents program
+  and Opendoor Exclusives marketplace. Opendoor does not publish a self-serve
+  public developer portal or open REST API; partner and agent integrations are
+  arranged directly through Opendoor's business development and partnerships
+  teams. This profile documents what is publicly findable on Opendoor's
+  partner-facing surfaces.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://www.opendoor.com
+created: '2024-01-01'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+  - Agents
+  - Cash Offer
+  - Exclusives
+  - Homes
+  - iBuyer
+  - Listings
+  - Partners
+  - Real Estate
+apis:
+  - aid: opendoor:opendoor-for-agents
+    name: Opendoor for Agents
+    description: >-
+      Opendoor for Agents is the partner program that lets licensed
+      real-estate agents submit clients to Opendoor for a cash offer, list
+      Opendoor-owned inventory, and earn referral commissions. Integration is
+      delivered through Opendoor's agent portal and direct partner onboarding
+      with email and MLS ID rather than a public REST API.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.opendoor.com/agents
+    baseURL: https://www.opendoor.com
+    tags:
+      - Agents
+      - Partners
+      - Real Estate
+      - Referrals
+    properties:
+      - type: Portal
+        url: https://www.opendoor.com/agents
+      - type: GettingStarted
+        url: https://www.opendoor.com/agents
+  - aid: opendoor:opendoor-exclusives
+    name: Opendoor Exclusives
+    description: >-
+      Opendoor Exclusives is an off-market home marketplace where Opendoor
+      lists inventory it has recently acquired, before those homes hit the
+      MLS. Partner integrations for Exclusives (lender, search portal, and
+      agent surfaces) are arranged directly with Opendoor business
+      development rather than through a self-serve API. The consumer-facing
+      site is a search and offer-submission experience.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.opendoor.com/exclusives
+    baseURL: https://www.opendoor.com
+    tags:
+      - Exclusives
+      - Inventory
+      - Listings
+      - Off-Market
+      - Real Estate
+    properties:
+      - type: Portal
+        url: https://www.opendoor.com/exclusives
+  - aid: opendoor:opendoor-partners
+    name: Opendoor Partner Integrations
+    description: >-
+      Opendoor maintains brand partnerships with home-search portals,
+      brokerages, lenders, and home-services providers that surface Opendoor
+      cash offers and Exclusives listings inside partner experiences. These
+      integrations are bespoke, gated, and provisioned through Opendoor
+      business development rather than a public developer portal.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.opendoor.com
+    baseURL: https://www.opendoor.com
+    tags:
+      - Brokerages
+      - Lenders
+      - Partners
+      - Real Estate
+    properties:
+      - type: Portal
+        url: https://www.opendoor.com
+common:
+  - url: https://www.opendoor.com
+    name: Opendoor Website
+    type: Website
+  - url: https://www.opendoor.com/about
+    name: About Opendoor
+    type: About
+  - url: https://www.opendoor.com/agents
+    name: Opendoor for Agents
+    type: Partners
+  - url: https://www.opendoor.com/exclusives
+    name: Opendoor Exclusives
+    type: Product
+  - url: https://www.opendoor.com/articles
+    name: Opendoor Articles
+    type: Blog
+  - url: https://www.opendoor.com/help
+    name: Opendoor Help Center
+    type: Support
+  - url: https://investor.opendoor.com
+    name: Opendoor Investor Relations
+    type: InvestorRelations
+  - url: https://www.opendoor.com/careers
+    name: Opendoor Careers
+    type: Careers
+  - url: https://github.com/opendoor-labs
+    name: Opendoor Labs on GitHub
+    type: GitHubOrganization
+  - url: https://www.opendoor.com/terms-of-service
+    name: Opendoor Terms of Service
+    type: TermsOfService
+  - url: https://www.opendoor.com/privacy
+    name: Opendoor Privacy Policy
+    type: PrivacyPolicy
+  - url: https://x.com/Opendoor
+    name: Opendoor on X
+    type: X
+  - url: https://www.facebook.com/Opendoor
+    name: Opendoor on Facebook
+    type: Facebook
+  - url: https://www.linkedin.com/company/opendoor
+    name: Opendoor on LinkedIn
+    type: LinkedIn
+  - url: https://www.instagram.com/opendoor
+    name: Opendoor on Instagram
+    type: Instagram
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
