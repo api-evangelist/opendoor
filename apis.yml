@@ -12,7 +12,7 @@ description: >-
   arranged directly through Opendoor's business development and partnerships
   teams. This profile documents what is publicly findable on Opendoor's
   partner-facing surfaces.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://www.opendoor.com
 created: '2024-01-01'
 modified: '2026-05-23'
@@ -37,7 +37,7 @@ apis:
       Opendoor-owned inventory, and earn referral commissions. Integration is
       delivered through Opendoor's agent portal and direct partner onboarding
       with email and MLS ID rather than a public REST API.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.opendoor.com/agents
     baseURL: https://www.opendoor.com
     tags:
@@ -59,7 +59,7 @@ apis:
       agent surfaces) are arranged directly with Opendoor business
       development rather than through a self-serve API. The consumer-facing
       site is a search and offer-submission experience.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.opendoor.com/exclusives
     baseURL: https://www.opendoor.com
     tags:
@@ -79,7 +79,7 @@ apis:
       cash offers and Exclusives listings inside partner experiences. These
       integrations are bespoke, gated, and provisioned through Opendoor
       business development rather than a public developer portal.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.opendoor.com
     baseURL: https://www.opendoor.com
     tags:
