@@ -91,6 +91,8 @@ apis:
       - type: Portal
         url: https://www.opendoor.com
 common:
+  - type: DomainSecurity
+    url: security/opendoor-domain-security.yml
   - url: https://www.opendoor.com
     name: Opendoor Website
     type: Website
