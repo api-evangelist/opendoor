@@ -3,10 +3,9 @@
   "feeds": [
     {
       "source": "https://www.opendoor.com/articles",
-      "saved": 0,
-      "error": "HTTP 404 on blog listing (and /articles/, /resources)"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:57:40Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
