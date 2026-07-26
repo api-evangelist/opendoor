@@ -12,10 +12,22 @@ description: >-
   arranged directly through Opendoor's business development and partnerships
   teams. This profile documents what is publicly findable on Opendoor's
   partner-facing surfaces.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opendoor.png
 url: https://www.opendoor.com
 created: '2024-01-01'
-modified: '2026-05-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 type: Index
 access: 3rd-Party
@@ -50,46 +62,6 @@ apis:
         url: https://www.opendoor.com/agents
       - type: GettingStarted
         url: https://www.opendoor.com/agents
-  - aid: opendoor:opendoor-exclusives
-    name: Opendoor Exclusives
-    description: >-
-      Opendoor Exclusives is an off-market home marketplace where Opendoor
-      lists inventory it has recently acquired, before those homes hit the
-      MLS. Partner integrations for Exclusives (lender, search portal, and
-      agent surfaces) are arranged directly with Opendoor business
-      development rather than through a self-serve API. The consumer-facing
-      site is a search and offer-submission experience.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.opendoor.com/exclusives
-    baseURL: https://www.opendoor.com
-    tags:
-      - Exclusives
-      - Inventory
-      - Listings
-      - Off-Market
-      - Real Estate
-    properties:
-      - type: Portal
-        url: https://www.opendoor.com/exclusives
-  - aid: opendoor:opendoor-partners
-    name: Opendoor Partner Integrations
-    description: >-
-      Opendoor maintains brand partnerships with home-search portals,
-      brokerages, lenders, and home-services providers that surface Opendoor
-      cash offers and Exclusives listings inside partner experiences. These
-      integrations are bespoke, gated, and provisioned through Opendoor
-      business development rather than a public developer portal.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.opendoor.com
-    baseURL: https://www.opendoor.com
-    tags:
-      - Brokerages
-      - Lenders
-      - Partners
-      - Real Estate
-    properties:
-      - type: Portal
-        url: https://www.opendoor.com
 common:
   - type: DomainSecurity
     url: security/opendoor-domain-security.yml
