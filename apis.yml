@@ -39,6 +39,15 @@ tags:
   - iBuyer
   - Listings
   - Partners
+  - Real-Estate
+tags_raw:
+  - Agents
+  - Cash Offer
+  - Exclusives
+  - Homes
+  - iBuyer
+  - Listings
+  - Partners
   - Real Estate
 apis:
   - aid: opendoor:opendoor-for-agents
@@ -53,6 +62,11 @@ apis:
     humanURL: https://www.opendoor.com/agents
     baseURL: https://www.opendoor.com
     tags:
+      - Agents
+      - Partners
+      - Real-Estate
+      - Referrals
+    tags_raw:
       - Agents
       - Partners
       - Real Estate
