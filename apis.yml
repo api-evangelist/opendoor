@@ -50,7 +50,7 @@ tags:
   - iBuyer
   - Listings
   - Partners
-  - Real-Estate
+  - Real Estate
 tags_raw:
   - Agents
   - Cash Offer
@@ -60,6 +60,7 @@ tags_raw:
   - Listings
   - Partners
   - Real Estate
+  - Real-Estate
 apis:
   - aid: opendoor:opendoor-for-agents
     name: Opendoor for Agents
@@ -71,17 +72,17 @@ apis:
       with email and MLS ID rather than a public REST API.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.opendoor.com/agents
-    baseURL: https://www.opendoor.com
     tags:
       - Agents
       - Partners
-      - Real-Estate
+      - Real Estate
       - Referrals
     tags_raw:
       - Agents
       - Partners
       - Real Estate
       - Referrals
+      - Real-Estate
     properties:
       - type: Portal
         url: https://www.opendoor.com/agents
