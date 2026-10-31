@@ -1,4 +1,4 @@
-# opendoor
+# Opendoor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Opendoor — iBuyer + Opendoor Exclusives + agent APIs
+Opendoor is an iBuyer that lets U.S. homeowners request a near-instant cash offer on their home, sell directly to Opendoor, list with Opendoor through its agent network, or browse off-market inventory via Opendoor Exclusives. Founded in 2014 and publicly traded on NASDAQ as OPEN, the company runs buying, renovation, listing, and resale at scale and partners with third-party agents and brokerages through its Opendoor for Agents program and Opendoor Exclusives marketplace. Opendoor does not publish a self-serve public developer portal or open REST API; partner and agent integrations are arranged directly through Opendoor's business development and partnerships teams. This profile documents what is publicly findable on Opendoor's partner-facing surfaces.
+
+**Areas:** Agents · Cash Offer · Exclusives · Homes · iBuyer · Listings · Partners · Real Estate
+
+## Opendoor on APIs.io
+
+Everything profiled for Opendoor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/opendoor/](https://apis.io/providers/opendoor/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Opendoor for Agents](https://apis.io/apis/opendoor/opendoor-for-agents/) — Opendoor for Agents is the partner program that lets licensed real-estate agents submit clients to Opendoor for a cash offer, list Opendoor-owned inventory,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Opendoor Domain Security](https://apis.io/security/opendoor/opendoor-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Opendoor Plans Pricing](https://apis.io/plans/opendoor/opendoor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Opendoor Rate Limits](https://apis.io/rate-limits/opendoor/opendoor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Opendoor Finops](https://apis.io/finops/opendoor/opendoor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.opendoor.com)
+- [Support](https://www.opendoor.com/help)
+- [Blog](https://www.opendoor.com/articles)
+- [Terms of service](https://www.opendoor.com/terms-of-service)
+- [Privacy policy](https://www.opendoor.com/privacy)
+- [GitHub](https://github.com/opendoor-labs)
+
+## API Evangelist rating
+
+**Kin Score 18.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/opendoor/](https://apis.io/providers/opendoor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Opendoor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/opendoor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
